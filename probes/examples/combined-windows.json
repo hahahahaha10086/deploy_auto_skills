@@ -1,0 +1,46 @@
+{
+  "host": {
+    "osFamily": "windows",
+    "distribution": "Microsoft Windows 11 Enterprise",
+    "version": "Microsoft Windows NT 10.0.26200.0",
+    "architecture": "amd64"
+  },
+  "tools": {
+    "docker": true,
+    "dockerCompose": true,
+    "python": true,
+    "conda": true,
+    "node": true,
+    "pnpm": true,
+    "java": false,
+    "go": true,
+    "cmake": false
+  },
+  "toolVersions": {
+    "docker": "Docker version 29.2.1, build a5c7197",
+    "dockerCompose": "Docker Compose version v5.1.0",
+    "python": "Python 3.13.11",
+    "conda": "conda 25.11.1",
+    "node": "v24.13.1",
+    "pnpm": "10.33.0",
+    "go": "go version go1.25.7 windows/amd64"
+  },
+  "capabilities": {
+    "supportsSystemd": false,
+    "supportsBash": true,
+    "supportsPowerShell": true,
+    "hasGpu": false
+  },
+  "permissions": {
+    "executionIdentity": "DESKTOP\\admin",
+    "isElevated": false,
+    "canWriteWorkspace": true,
+    "canWriteTemp": true,
+    "canWriteLogs": true,
+    "canAccessDockerDaemon": true,
+    "canRunCompose": true,
+    "canInspectServices": true,
+    "canManageServices": false
+  },
+  "compatibilityHints": []
+}

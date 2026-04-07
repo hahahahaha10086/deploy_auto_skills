@@ -1,0 +1,15 @@
+{
+  "host": {
+    "osFamily": "windows",
+    "distribution": "Microsoft Windows 11 Enterprise",
+    "version": "Microsoft Windows NT 10.0.26200.0",
+    "architecture": "amd64"
+  },
+  "capabilities": {
+    "supportsSystemd": false,
+    "supportsBash": true,
+    "supportsPowerShell": true,
+    "hasGpu": false
+  }
+}
+
